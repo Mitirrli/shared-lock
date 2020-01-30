@@ -1,0 +1,26 @@
+{
+  "name" : "mitirrli/shared-memory",
+  "description" : "共享内存、信号量加锁",
+  "license" : "MIT",
+  "authors" : [
+    {
+      "name" : "mitirrli",
+      "email" : "phper.blue@gmail.com"
+    }
+  ],
+  "require" : {
+    "php" : ">=7.0",
+    "ext-sysvshm" : "*",
+    "ext-sysvsem" : "*"
+  },
+  "suggest" : {
+    "ext-shmop" : "Required to use all features of the shmop.",
+    "ext-sysvsem" : "Required to use all features of the sysvsem.",
+    "ext-sysvshm" : "Required to use all features of the sysvshm."
+  },
+  "autoload" : {
+    "psr-4" : {
+      "Mitirrli\\Shared\\" : "./src/"
+    }
+  }
+}
