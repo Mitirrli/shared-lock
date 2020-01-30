@@ -7,6 +7,8 @@
 [![Latest Unstable Version](https://poser.pugx.org/mitirrli/shared-lock/v/unstable)](https://packagist.org/packages/mitirrli/shared-lock)
 <a href="https://packagist.org/packages/mitirrli/shared-lock"><img src="https://poser.pugx.org/mitirrli/shared-lock/license" alt="License"></a>
 
+[![Latest Stable Version](https://poser.pugx.org/mitirrli/shared-lock/v/stable)](https://packagist.org/packages/mitirrli/shared-lock)
+
 ## 环境需求
 
 - PHP >= 7.0

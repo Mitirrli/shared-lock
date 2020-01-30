@@ -14,7 +14,6 @@
     "ext-sysvsem" : "*"
   },
   "suggest" : {
-    "ext-shmop" : "Required to use all features of the shmop.",
     "ext-sysvsem" : "Required to use all features of the sysvsem.",
     "ext-sysvshm" : "Required to use all features of the sysvshm."
   },
