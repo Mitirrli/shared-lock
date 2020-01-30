@@ -22,6 +22,6 @@ $ composer require "mitirrli/shared-lock"
 ```        
 $client = new Memory();
 
-$client->lock($key);//加锁
-$client->unlock($key);//解锁
+$client->lock();//加锁
+$client->unlock();//解锁
 ```
